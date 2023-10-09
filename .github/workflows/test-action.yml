@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Test Custom Action
-        uses: arthursady/auto-release-tag-generator@v0.0.2
+        uses: arthursady/auto-release-tag-generator@v0.0.1
         with:
             prefix: "test@test-"
             buildNumber: ${{github.run_number}}
