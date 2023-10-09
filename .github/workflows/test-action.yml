@@ -13,3 +13,4 @@ jobs:
         with:
             prefix: "test@test-"
             buildNumber: ${{github.run_number}}
+            githubToken: ${{secrets.GITHUB_TOKEN}}
